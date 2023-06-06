@@ -1,0 +1,131 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+	width: 100%;
+	background: #879225;
+}
+
+.logo img {
+	float: left;
+	height: 80%;
+	width: 120px;
+}
+
+.content {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.clearfix {
+	clear: both;
+	float: none;
+}
+
+header {
+	width: 100%;
+	background: #EEE;
+	height: 100px;
+}
+
+header img {
+	float: left;
+	height: 80%;
+	width: 350px;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	padding: 10px 20px;
+	color: black;
+	text-decoration: none;
+	line-height: 50mpx;
+	font-weight: bold;
+}
+
+nav a:hover {
+	background: #4C531E;
+	color: white;
+}
+
+.half {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.half img {
+	width: 80%;
+	height: auto;
+}
+
+.half h1 {
+	margin-top: 70px;
+	line-height: 30px;
+}
+
+.descripcion {
+	width: 100%;
+	background: #EEE;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.descripcion h1 {
+	line-height: 50px;
+}
+
+.descripcion h3 {
+	line-height: 50px;
+}
+
+.descripcion li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+.descripcion img {
+	height: 100px;
+	width: 120px;
+	margin: 50px auto;
+	display: block;
+}
+
+footer {
+	width: 100%;
+	background: #EEE;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.btn-movilidad {
+	background-color: #879225 !important;
+	border-color: #879225 !important;
+	margin-top: 2rem !important;
+}
+
+.accordion-button {
+	background-color: #d6d6d6 !important;
+	color: #132d135c !important;
+}
+
+.main-title {
+	margin-top: 2rem !important;
+	margin-bottom: 1rem !important;
+}
