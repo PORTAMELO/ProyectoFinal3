@@ -1,6 +1,6 @@
 <p align="center">
 <h1 align="center">Repositorio: ProyectoFinal2</h1>
-<div align="center"><img src="[https://i.pinimg.com/564x/98/a5/a3/98a5a35584beca534d684ec38ad2a900.jpg](https://www.cali.gov.co/movilidad/info/principal/media/pubInt/thumbs/thpub_700x400_173415.jpg)"></div>
+<div align="center"><img src="https://www.cali.gov.co/movilidad/info/principal/media/pubInt/thumbs/thpub_700x400_173415.jpg"></div>
 <p align="center">
 <h3 align="center">¡Bienvenido a nuestro repositorio!</h3>
 </p>
