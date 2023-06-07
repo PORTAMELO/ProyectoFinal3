@@ -11,38 +11,36 @@
 <h3 align="center"> 😊 ¡Pasemos a los requerimientos! 😊</h3>
 
 # Mundo del Problema
+La División de Movilidad de la Alcaldía de Bogotá ha asignado a la responsabilidad de controlar y emitir partes a todos los automóviles que cometan infracciones dentro de la ciudad. En este sentido, se le ha encomendado a usted, estudiante de Ingeniería de Sistemas en la Universidad El Bosque [PORTAMELO :(](https://github.com/PORTAMELO), desarrollar un sistema de información para almacenar todos los partes que puedan ocurrir en la ciudad.
 
-Todos sabemos que un entrenador Pokémon puede almacenar 6 o menos Pokémons en su bolsillo, de esta forma puede llevarlos con él y enfrentarse a diferentes oponentes, ya que solo así conseguirá su victoria y se hará mas fuerte. Sin embargo, algunas veces invertir papeles y seleccionar el mejor Pokémon para la batalla es necesario para ganar. Pensando en esto, al profesor Oak se le ocurrió la PC, esto con el fin de seguir conservando sus Pokémones conseguidos a la hora de cambiar roles y cartas con los pokemones de su bolsillo, sin tener que perder los que no necesite para la batalla. La PC fue pensada para llevar a cabo un sistema de 3 cajas diferentes, en las cuales se almacenarán todos los Pokémons que el entrenador desee, además de esto el entrenador está en la libertad de seleccionar en que caja almacenará cada uno de sus Pokémons.
+A continuación, se presentan los requisitos clave del sistema:
 
-Para esto, El profesor Oak nos confió a nosotros, NIAW, un equipo de estudiantes de Ingeniería de Sistemas conformado por [PORTAMELO :v](https://github.com/PORTAMELO), [Arekusandora🧛](https://github.com/ArekuInBlueee), [Tomoe🌸](https://github.com/usapanda) y [Nat💙](https://github.com/NatVerB), para elaborar el programa que requiere, el cual debe cumplir con los siguientes requerimientos:
+Cada parte está directamente asociado a un vehículo.
+Un vehículo puede estar vinculado a múltiples partes.
+Es necesario insertar todos los partes en el sistema.
+Se debe llevar un registro de los vehículos.
+Cada automóvil está relacionado con una persona.
 
-
-- Debe tener un aplicativo cliente, el cual hará las veces del almacenamiento del entrenador, con un máximo de 6 Pokémons. Puede inciar con los 6 o puede iniciar con ninguno.
-
-- El entrenador puede conectarse a su pc (servidor) y transferir criaturas entre su almacenamiento y el pc, Además seleccionar en que caja desea guardarlos.
-
-- La pc no tiene interfaz gráfica, todo se muestra en GUI del cliente, pero ambos sistemas si pueden tener consola para registro de errores y depuración del sistema.
-
-- La pc debe poder recibir hasta 4 conexiones diferentes simultaneas, sin que estas se choquen entre sí.
-
-- Los datos de los Pokémon son sus estadisticas base, un mote, su nivel, y 4 ataques aleatorios, por facilidad del ejercicio, no tienen que ser necesariamente del mismo tipo que el pokemon.
-
-- El uso de sockets, hilos, y versionamiento de codigo es obligatorio.
-
-- El entrenador puede capturar un nuevo Pokémon, es decir puede digitar la información de un Pokémon X nuevo y guardarlo en su bolsillo si tiene espacio o en el pc si no lo tiene.
-
-- El entrenador puede solicitar la liberación de una de sus criaturas, lo que hará que desaparesca de todos los sistemas.
-
-- OPCIONAL GUI amigable e intuitiva con el usuario, control de excepciones para cada posible situación anomala.
+## Requerimientos
+- Spring boot, Servicios REST
+- BD mysql
+- junit
+- bootstrap u otro framework de estilos
+- hibernate ORM
+- entregar empaquetado en WAR y compatible con Tomcat 10.1 (jakarta EE)
+- GITHUB con readme completo, tutorial y explicación
+- Uso de ramas por modulo
+- creación de PDF y su descarga
+- tutorial de uso en YT
+- Individual
+- Debe servir en cualquier maquina con tomcat instalado
+- La entrega se realiza con el proyecto en WAR, link de github, link del video
+diagrama de clases del back
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Bien, ahora que te hemos explicado un poco mas de que va esto, esperamos que te sea de mucha utilidad esta información y que si así lo necesitas, pueda ayudarte cualquier elemento de este repositorio...
 
-Si todavia tienes dudas, puedes consultar nuestro documento [JavaDoc]() del Software, en donde podrás encontrar absolutamente toda la información acerca del programa.
-
-## Hasta Luego 💋
-
-*ReadMe diseñado y redactado por Alejandra Valero*
-
-*Imagenes tomadas de Pinterest*
+*ReadMe diseñado y redactado por William Castillo*
+*Fuente de inpiracion [Arekusandora🧛](https://github.com/ArekuInBlueee)*
+*Imagenes tomadas de Google :V*
