@@ -1,6 +1,6 @@
 <p align="center">
-<h1 align="center">Repositorio: PockeSocketsNIAW</h1>
-<div align="center"><img src="https://i.pinimg.com/564x/98/a5/a3/98a5a35584beca534d684ec38ad2a900.jpg"></div>
+<h1 align="center">Repositorio: ProyectoFinal2</h1>
+<div align="center"><img src="[https://i.pinimg.com/564x/98/a5/a3/98a5a35584beca534d684ec38ad2a900.jpg"](https://pin.it/3qKxFq1)></div>
 <p align="center">
 <h3 align="center">¡Bienvenido a nuestro repositorio!</h3>
 </p>
