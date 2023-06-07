@@ -8,7 +8,7 @@ function iniciar() {
 			}
 		}
 	});
-	
+
 	$.ajax({
 		method: "GET",
 		url: "http://localhost:8081/InfringementController/getallinfringement",
@@ -39,7 +39,7 @@ function iniciar2() {
 			}
 		}
 	});
-	
+
 	$.ajax({
 		method: "GET",
 		url: "http://localhost:8081/PersonController/GetAllPerson",
@@ -267,7 +267,6 @@ function eliminarPersona(e) {
 		}
 	});
 }
-
 
 
 $('#delete-person-form').submit(eliminarPersona);

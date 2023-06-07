@@ -9,7 +9,7 @@ function buscarAdmin(e) {
 		url: "http://localhost:8081/AdminController/getAdmin/" + $('#username').val(),
 		data: body,
 		success: function(data) {
-			if (data === true) { // Reemplaza "data === true" con tu condición real para verificar si el resultado es "true"
+			if (data === true) {
 				Swal.fire({
 					icon: 'success',
 					title: 'Bienvenido',

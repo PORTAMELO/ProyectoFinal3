@@ -18,4 +18,6 @@ public interface VehicleDAO extends CrudRepository<Vehicle, Integer>{
 	
 	public void deleteByRegistration(String registration);
 	
+	public void deleteByOwnerDocument(Long ownerDocument);
+	
 }

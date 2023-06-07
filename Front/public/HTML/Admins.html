@@ -18,7 +18,8 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-
+<script src="https://kit.fontawesome.com/d70f899114.js"
+	crossorigin="anonymous"></script>
 
 </head>
 
@@ -143,7 +144,7 @@
 								<tr>
 									<th>ID</th>
 									<th>Documento del Propietario</th>
-									<th>Registro</th>
+									<th>Matricula</th>
 									<th>Marca</th>
 									<th>Color</th>
 									<th>Códigos de Infracción</th>
@@ -300,7 +301,8 @@
 			<button class="accordion-button" type="button"
 				data-bs-toggle="collapse"
 				data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-				aria-controls="panelsStayOpen-collapseOne">Todos las Personas</button>
+				aria-controls="panelsStayOpen-collapseOne">Todos las
+				Personas</button>
 		</h2>
 		<div id="panelsStayOpen-collapseOne"
 			class="accordion-collapse collapse show"
@@ -326,6 +328,34 @@
 		</div>
 
 	</div>
+
+	<br>
+	<br>
+
+	<form class="d-flex justify-content-center align-items-center"
+		action="http://localhost:8081/pdf/generate" method="get">
+		<button type="submit" target="_blank">
+			<i class="fa-solid fa-file-circle-plus"></i>
+		</button>
+	</form>
+
+	<form class="d-flex justify-content-center align-items-center">
+		<span>Todos los partes</span>
+	</form>
+
+	<br>
+	<br>
+
+	<form class="d-flex justify-content-center align-items-center"
+		action="http://localhost:8081/pdf/generate2" method="get">
+		<button type="submit" target="_blank">
+			<i class="fa-solid fa-file-circle-plus"></i>
+		</button>
+	</form>
+
+	<form class="d-flex justify-content-center align-items-center">
+		<span>Personas - vehiculos</span>
+	</form>
 
 	<script src="/Front/JS/Admins.js"></script>
 </body>

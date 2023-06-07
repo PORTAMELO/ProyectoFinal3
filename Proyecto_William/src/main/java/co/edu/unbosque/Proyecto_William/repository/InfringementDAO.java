@@ -14,4 +14,6 @@ public interface InfringementDAO extends CrudRepository<Infringement, Integer>{
 	
 	public Infringement findByDescription(String description);
 	
+	public Infringement findByCode(String code);
+	
 }

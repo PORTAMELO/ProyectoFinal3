@@ -19,6 +19,7 @@ import co.edu.unbosque.Proyecto_William.model.Infringement;
 import co.edu.unbosque.Proyecto_William.model.Person;
 import co.edu.unbosque.Proyecto_William.model.Vehicle;
 import co.edu.unbosque.Proyecto_William.repository.PersonDAO;
+import co.edu.unbosque.Proyecto_William.repository.VehicleDAO;
 import jakarta.transaction.Transactional;
 
 @CrossOrigin(origins = "*")
@@ -29,6 +30,9 @@ public class PersonController {
 
 	@Autowired
 	PersonDAO perDAO;
+	
+	@Autowired
+	VehicleDAO vehDAO;
 	
 	@PostMapping(path = "/AddPerson")
 	public ResponseEntity<String> AddPerson(@RequestParam String name, @RequestParam Long document,
@@ -54,6 +58,7 @@ public class PersonController {
 					.body("La cedula de la persona no coincide con ninguna registrada.");
 		} else {
 			perDAO.deleteByDocument(document);
+			vehDAO.deleteByOwnerDocument(document);
 			return ResponseEntity.status(HttpStatus.ACCEPTED).body("La persona se ha eliminado correctamente de la base de datos.");
 		}
 
